@@ -7,7 +7,9 @@
 
 ## What is this project?
 
-`open_api_codegen_prompt.md` is a **super-prompt for AI models** (e.g. GitHub Copilot, Claude, GPT-4) that replaces traditional code generation tools (swagger-codegen, openapi-generator, etc.) in the process of creating client libraries for REST APIs.
+`open_api_codegen_prompt.md` is a **super-prompt for AI models** that replaces traditional code generation tools (swagger-codegen, openapi-generator, etc.) in the process of creating client libraries for REST APIs.
+
+> **Recommended model:** [Claude Sonnet 4.6](https://www.anthropic.com/claude) -- the prompt was designed and tested with this model. Use it via GitHub Copilot Agent or directly in the Claude interface for best results.
 
 Instead of generating code from templates -- AI guides the user step by step through gathering requirements, and then creates a client library tailored to their needs.
 
@@ -318,6 +320,7 @@ robot test.robot
 
 ## Requirements
 
-- An AI model supporting long contexts and multi-turn sessions (e.g. GitHub Copilot Agent, Claude, GPT-4)
+- **Claude Sonnet 4.6** (recommended) -- available via [GitHub Copilot Agent](https://github.com/features/copilot) or directly at [claude.ai](https://claude.ai)
+- Any AI model supporting long contexts and multi-turn sessions (e.g. GPT-4, Gemini)
 - Python 3.10+ (for generated Python libraries)
 - Optional: `requests`, `pydantic`, `robotframework`, `build`

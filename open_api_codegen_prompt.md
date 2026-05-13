@@ -3,6 +3,9 @@
 **Author:** Artur Ziółkowski
 **LinkedIn:** [https://www.linkedin.com/in/arturjadach/](https://www.linkedin.com/in/arturjadach/)
 
+> **Recommended AI model:** Claude Sonnet 4.6 — this prompt was designed and tested with this model.
+> Use it via GitHub Copilot Agent or directly in the Claude interface for best results.
+
 ## Idea
 
 Super Prompt AI Gen is an AI-driven procedure designed to replace traditional CodeGen tools
