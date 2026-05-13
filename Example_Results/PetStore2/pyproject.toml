@@ -1,0 +1,20 @@
+[project]
+name = "PetStore2Client"
+version = "1.0.0"
+description = "API client library for Swagger Petstore (https://petstore.swagger.io/v2)"
+authors = [
+    { name = "Artur Ziółkowski" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "requests",
+    "pydantic",
+    "robotframework",
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["PetStore2Client*"]

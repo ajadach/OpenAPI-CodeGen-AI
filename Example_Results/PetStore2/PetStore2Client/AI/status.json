@@ -1,0 +1,16 @@
+{
+  "swagger_url": "https://petstore.swagger.io/",
+  "base_endpoint": "petstore.swagger.io/v2",
+  "library_folder": "PetStore2",
+  "openapi_json_confirmed": true,
+  "check_sum_openapi_json": "BB116730D391E330119C691F9B124D07B9AFDEA61B5A252345B577E9A4C2F98B",
+  "language": "python",
+  "language_version": "3.12",
+  "http_library": "requests",
+  "client_folder": "PetStore2Client",
+  "method_prefix": true,
+  "modules": {"pet": "pending", "store": "pending", "user": "pending"},
+  "generation": {"pet": "done", "store": "done", "user": "done"},
+  "pip_package": true,
+  "robot_framework_support": true
+}
